@@ -1,9 +1,11 @@
 ---
 layout: page
-title: "Rice STAT 425 Intro. TO Bayesian Inference"
+title: "Rice STAT 425 Intro. To Bayesian Inference"
 ---
 
-#### Lecturer: [Dr. Marina Vannucci](https://marina.blogs.rice.edu/)
+#### Lecturer: 
+
+[Dr. Marina Vannucci](https://marina.blogs.rice.edu/)
 
 #### TA Lab Section 
 
