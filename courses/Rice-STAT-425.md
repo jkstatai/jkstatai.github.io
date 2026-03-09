@@ -1,7 +1,10 @@
 ---
 layout: page
-title: "Stellar Structures"
+title: "Rice STAT 425 INTRODUCTION TO BAYESIAN INFERENCE"
 ---
+
+### Lecturer: [Dr. Marina Vannucci](url: 'https://marina.blogs.rice.edu/')
+
 
 #### TA Lab Section 
 
