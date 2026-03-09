@@ -11,7 +11,7 @@ people:
 - {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
 
 courses:
-- {name: '(Fall 2025) STAT 425 Intro to Bayesian', url: 'stellar-structures'}
+- {name: '(Fall 2025) STAT 425 Intro to Bayesian', url: 'STAT-425'}
 - {name: '(Spring 2025) STA 611 - Introduction to Mathematical Statistics', url: 'vector-calculus'}
 - {name: '(Fall 2024) STA 521 - Predictive Inference', url: 'quantum-mechanics'}
 
