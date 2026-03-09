@@ -20,4 +20,4 @@ social:
 - {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
 
 contacts:
-- {name: 'Justin Kao', title: 'PhD Student', department: 'Statistics', institution: 'Rice University', email: 'Justin.Kao@rice.edu', image: 'assets/img/contact.jpeg'}
+- {name: 'Justin Kao', title: 'PhD Student', department: 'Statistics', institution: 'Rice University', address: '6100 Main St., Houston, TX 77005-1827', email: 'Justin.Kao@rice.edu', image: 'assets/img/contact.jpeg'}
