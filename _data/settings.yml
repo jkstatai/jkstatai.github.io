@@ -16,8 +16,8 @@ courses:
 - {name: '(Fall 2024) STA 521 - Predictive Inference', url: 'Duke-STA-521'}
 
 social:
-- {icon: 'github', link: 'https://github.com/justinkao44'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
+- {icon: 'github', link: 'https://jkstatai.github.io/'}
+- {icon: 'linkedin', link: 'www.linkedin.com/in/justin-kao-asa-9248ba16a'}
 
 contacts:
 - {name: 'Justin Kao', title: 'PhD Student', department: 'Statistics', institution: 'Rice University', email: 'Justin.Kao@rice.edu', image: 'assets/img/contact.jpeg'}
