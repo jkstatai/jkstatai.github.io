@@ -17,7 +17,7 @@ courses:
 
 social:
 - {icon: 'github', link: 'https://jkstatai.github.io/'}
-- {icon: 'linkedin', link: 'www.linkedin.com/in/justin-kao-asa-9248ba16a'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/justin-kao-asa-9248ba16a/'}
 
 contacts:
 - {name: 'Justin Kao', title: 'PhD Student', department: 'Statistics', institution: 'Rice University', email: 'Justin.Kao@rice.edu', image: 'assets/img/contact.jpeg'}
