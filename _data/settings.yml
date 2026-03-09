@@ -12,8 +12,8 @@ people:
 
 courses:
 - {name: '(Fall 2025) STAT 425 Intro to Bayesian', url: 'Rice-STAT-425'}
-- {name: '(Spring 2025) STA 611 - Introduction to Mathematical Statistics', url: 'vector-calculus'}
-- {name: '(Fall 2024) STA 521 - Predictive Inference', url: 'quantum-mechanics'}
+- {name: '(Spring 2025) STA 611 - Introduction to Mathematical Statistics', url: 'Duke-STA-611'}
+- {name: '(Fall 2024) STA 521 - Predictive Inference', url: 'Duke-STA-521'}
 
 social:
 - {icon: 'github', link: 'https://github.com/justinkao44'}
