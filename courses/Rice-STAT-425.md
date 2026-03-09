@@ -5,5 +5,5 @@ title: "Stellar Structures"
 
 #### Course Materials
 
-[TA Lab Section](/courses/stellar-structures/Sample_Course_Outline.pdf)
+[TA Lab Section](/courses/STAT-425-Github/MCMC(Metropolis-Hastings & Gibbs) & JAGS.pdf)
 
