@@ -14,9 +14,14 @@ layout: default
       </div>
       <div class="col-md-10" style="padding-left: 6rem;">
         {% for section in site.data.cv.education %}
-          <div class="mb-4">
-            <p class="fw-bold mb-1">{{ section.title }}</p>
-            <p class="mb-0">{{ section.description }}</p>
+          <div class="mb-5 d-flex align-items-start">
+            <div style="width: 70px; flex-shrink: 0; margin-right: 1.5rem;">
+              <img src="{{ site.github.url }}/{{ section.icon }}" alt="{{ section.description }} logo" style="max-width: 60px; height: auto;">
+            </div>
+            <div>
+              <p class="fw-bold mb-1">{{ section.title }}</p>
+              <p class="mb-0">{{ section.description }}</p>
+            </div>
           </div>
         {% endfor %}
       </div>
