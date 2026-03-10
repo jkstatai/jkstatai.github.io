@@ -1,11 +1,15 @@
 - title: 'Ph.D. in Statistics (Current)'
   description: 'Rice University'
   icon: 'assets/img/rice.png'
+  size: 55
+
 
 - title: 'Statistical Science'
   description: 'Duke University'
   icon: 'assets/img/duke.png'
+  size: 55
 
 - title: 'Economics & Actuarial Science'
   description: 'The University of Texas at Austin'
   icon: 'assets/img/utexas.png'
+  size: 55
