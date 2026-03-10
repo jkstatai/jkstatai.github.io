@@ -40,4 +40,4 @@ social:
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/justin-kao-asa-9248ba16a/'}
 
 contacts:
-- {name: 'Justin Kao', title: 'PhD Student', department: 'Statistics', institution: 'Rice University', email: 'Justin.Kao@rice.edu', address: '6100 Main St MS 364, Houston, TX 77005', image: 'assets/img/contact.jpeg'}
+- {name: 'Justin Kao', title: 'PhD Student', department: 'Statistics', institution: 'Rice University', email: 'Justin.Kao@rice.edu', address: '(Maxfield Hall) 6100 Main St MS 364, Houston, TX 77005', image: 'assets/img/contact.jpeg'}
