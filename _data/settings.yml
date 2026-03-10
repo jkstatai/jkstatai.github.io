@@ -14,17 +14,17 @@ courses:
   - semester: "Fall 2025"
     code: "STAT 425"
     title: "Intro to Bayesian"
-    url: "stat425"
+    url: "Rice-STAT-425"
 
   - semester: "Spring 2025"
     code: "STA 611"
     title: "Introduction to Mathematical Statistics"
-    url: "sta611"
+    url: "Duke-STA-611"
 
   - semester: "Fall 2024"
     code: "STA 521"
     title: "Predictive Inference"
-    url: "sta521"
+    url: "Duke-STA-521"
 
 social:
 - {icon: 'github', link: 'https://jkstatai.github.io/'}
