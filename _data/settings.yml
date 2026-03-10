@@ -11,9 +11,20 @@ menu:
 #- {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
 
 courses:
-- {name: '(Fall 2025) STAT 425 Intro to Bayesian', url: 'Rice-STAT-425'}
-- {name: '(Spring 2025) STA 611 - Introduction to Mathematical Statistics', url: 'Duke-STA-611'}
-- {name: '(Fall 2024) STA 521 - Predictive Inference', url: 'Duke-STA-521'}
+  - semester: "Fall 2025"
+    code: "STAT 425"
+    title: "Intro to Bayesian"
+    url: "stat425"
+
+  - semester: "Spring 2025"
+    code: "STA 611"
+    title: "Introduction to Mathematical Statistics"
+    url: "sta611"
+
+  - semester: "Fall 2024"
+    code: "STA 521"
+    title: "Predictive Inference"
+    url: "sta521"
 
 social:
 - {icon: 'github', link: 'https://jkstatai.github.io/'}
