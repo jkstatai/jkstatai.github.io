@@ -7,8 +7,26 @@ layout: default
 <div class="row g-5 mb-5">
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Teaching Assistant</h3>
+
     {% for course in site.data.settings.courses %}
-      <p><a href="{{ site.github.url }}/courses/{{ course.url}}">{{ course.name }}</a></p>
+    <div class="row mb-3">
+      
+      <div class="col-md-3">
+        ({{ course.semester }})
+      </div>
+
+      <div class="col-md-2">
+        {{ course.code }}
+      </div>
+
+      <div class="col-md-7">
+        <a href="{{ site.github.url }}/courses/{{ course.url }}">
+          {{ course.title }}
+        </a>
+      </div>
+
+    </div>
     {% endfor %}
+
   </div>
 </div>
