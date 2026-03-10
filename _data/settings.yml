@@ -27,13 +27,13 @@ courses:
     school: "Duke"
     code: "STA 611"
     title: "Introduction to Mathematical Statistics (<span style='color:#c0392b; font-style:italic;'>Head TA</span>)"
-    url: "Duke-STA-611"
+    url: '' #"Duke-STA-611"
 
   - semester: "Fall 2024"
     school: "Duke"
     code: "STA 521"
     title: "Predictive Inference (<span style='color:#c0392b; font-style:italic;'>Head TA</span>)"
-    url: "Duke-STA-521"
+    url: '' #"Duke-STA-521"
 
 social:
 - {icon: 'github', link: 'https://jkstatai.github.io/'}
