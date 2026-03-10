@@ -12,22 +12,26 @@ menu:
 
 courses:
   - semester: "Spring 2026"
-    code: "Rice STAT 410"
+    school: "Rice"
+    code: "STAT 410"
     title: "Linear Regression"
     url: ""
-    
+
   - semester: "Fall 2025"
-    code: "Rice STAT 425"
+    school: "Rice"
+    code: "STAT 425"
     title: "Introduction to Bayesian Inference"
     url: "Rice-STAT-425"
 
   - semester: "Spring 2025"
-    code: "Duke STA 611"
+    school: "Duke"
+    code: "STA 611"
     title: "Introduction to Mathematical Statistics (<span style='color:#c0392b; font-style:italic;'>Head TA</span>)"
     url: "Duke-STA-611"
 
   - semester: "Fall 2024"
-    code: "Duke STA 521"
+    school: "Duke"
+    code: "STA 521"
     title: "Predictive Inference (<span style='color:#c0392b; font-style:italic;'>Head TA</span>)"
     url: "Duke-STA-521"
 
