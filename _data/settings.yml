@@ -11,19 +11,24 @@ menu:
 #- {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
 
 courses:
+  - semester: "Spring 2026"
+    code: "STAT 410"
+    title: "Linear Regression"
+    url: ""
+    
   - semester: "Fall 2025"
     code: "STAT 425"
-    title: "Intro to Bayesian"
+    title: "Introduction to Bayesian Inference"
     url: "Rice-STAT-425"
 
   - semester: "Spring 2025"
     code: "STA 611"
-    title: "Introduction to Mathematical Statistics"
+    title: "Introduction to Mathematical Statistics (<span style='color:#c0392b; font-style:italic;'>Head TA</span>)"
     url: "Duke-STA-611"
 
   - semester: "Fall 2024"
     code: "STA 521"
-    title: "Predictive Inference"
+    title: "Predictive Inference (<span style='color:#c0392b; font-style:italic;'>Head TA</span>)"
     url: "Duke-STA-521"
 
 social:
