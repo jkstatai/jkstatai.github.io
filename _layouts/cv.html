@@ -6,60 +6,45 @@ layout: default
 
 <div class="row g-5 mb-5">
   <div>
-
     <h3 class="fw-bold border-bottom pb-3 mb-5">CV</h3>
 
-    <!-- Education -->
     <div class="row mb-5">
-
       <div class="col-md-2">
         <h4>Education</h4>
       </div>
 
-      <div class="col-md-10" style="padding-left:6rem;">
-
+      <div class="col-md-10" style="padding-left: 6rem;">
         {% for section in site.data.cv.education %}
-        <div class="mb-5 d-flex align-items-start">
+          <div class="mb-5 d-flex align-items-center">
+            
+            <div style="width: 120px; height: 120px; flex-shrink: 0; margin-right: 1.5rem; display: flex; align-items: center; justify-content: center;">
+              <img src="{{ site.github.url }}/{{ section.icon }}"
+                   alt="{{ section.description }} logo"
+                   style="max-width: {{ section.size }}px; max-height: {{ section.size }}px; width: auto; height: auto;">
+            </div>
 
-          <div style="width:70px; flex-shrink:0; margin-right:1.5rem; text-align:center;">
-            <img
-              src="{{ site.github.url }}/{{ section.icon }}"
-              alt="{{ section.description }} logo"
-              style="height:{{ section.size }}px; width:auto;"
-            >
+            <div>
+              <p class="fw-bold mb-1">{{ section.title }}</p>
+              <p class="mb-0">{{ section.description }}</p>
+            </div>
+
           </div>
-
-          <div>
-            <p class="fw-bold mb-1">{{ section.title }}</p>
-            <p class="mb-0">{{ section.description }}</p>
-          </div>
-
-        </div>
         {% endfor %}
-
       </div>
-
     </div>
 
-    <!-- Academic Experience -->
     <div class="row mb-5">
-
       <div class="col-md-2">
         <h4>Academic Experience</h4>
       </div>
-
-      <div class="col-md-10" style="padding-left:4rem;">
-
+      <div class="col-md-10" style="padding-left: 4rem;">
         {% for section in site.data.cv.academic-experience %}
-        <div class="mb-4">
-          <p class="fw-bold mb-1">{{ section.title }}</p>
-          <p class="mb-0">{{ section.description }}</p>
-        </div>
+          <div class="mb-4">
+            <p class="fw-bold mb-1">{{ section.title }}</p>
+            <p class="mb-0">{{ section.description }}</p>
+          </div>
         {% endfor %}
-
       </div>
-
     </div>
-
   </div>
 </div>
