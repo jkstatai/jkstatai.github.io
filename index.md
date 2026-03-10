@@ -10,5 +10,3 @@ Currently, I work with [Dr. Meng Li](https://meng.rice.edu/) at Rice University 
 Previously, I worked with [Dr. Jerry Reiter](https://www2.stat.duke.edu/~jerry/) at Duke University on *Bayesian and frequentist intervals under differential privacy for binomial proportions*, which is currently under review.
 
 In addition to my academic research, I also enjoy collaborating on computational and methodological projects. Recently, I worked with my Duke colleagues [Holly](https://hollyyfc.github.io/) and Alex on a side project involving statistical computing and applied modeling. More details will be announced soon.
-
-Thanks for visiting!
