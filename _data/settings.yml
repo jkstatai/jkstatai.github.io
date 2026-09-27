@@ -75,11 +75,8 @@ courses:
     url: "" #"Duke-STA-521"
 
 social:
-  - { icon: "github", link: "https://github.com/jkstatai" }
-  - {
-      icon: "linkedin",
-      link: "https://www.linkedin.com/in/justin-kao-asa-9248ba16a/",
-    }
+  - { icon: "github", link: "https://github.com/jkstatai", color: "#333333" }
+  - { icon: "linkedin", link: "https://www.linkedin.com/in/justin-kao-asa-9248ba16a/", color: "#0077B5" }
 
 contacts:
   - {
