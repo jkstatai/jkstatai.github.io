@@ -86,6 +86,6 @@ contacts:
       institution: "Rice University",
       email: "jk201@rice.edu",
       mailing_address: "Department of Statistics, Rice University, MS-138, P.O. Box 1892, Houston, TX 77251-1892",
-      office: "Room 254, Maxfield Hall, Rice University, 6100 Main Street, Houston, TX 77005",
+      office: "Room 254, Maxfield Hall",
       image: "assets/img/contact.jpeg",
     }
