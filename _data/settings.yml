@@ -47,7 +47,7 @@ courses:
   - semester: "Fall 2026"
     school: "Rice"
     code: "STAT 425"
-    title: "Introduction to Bayesian Inference (<span style='color:#c0392b; font-style:italic;'>Head TA</span>)"
+    title: "Introduction to Bayesian Inference (<a href='https://jkstatai.github.io/Rice_Fa26_STAT_425/' target='_blank' style='color:#2980b9;'>Course Website</a>) (<span style='color:#c0392b; font-style:italic;'>Head TA</span>)"
     url: ""
     
   - semester: "Spring 2026"
