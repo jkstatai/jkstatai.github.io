@@ -25,3 +25,8 @@ body a:hover,
 body a:focus {
   color: #333333 !important;
 }
+
+.social-media-icons a,
+.social-media-icons a:visited {
+  color: inherit !important;
+}
