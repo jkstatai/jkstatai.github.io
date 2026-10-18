@@ -2,6 +2,16 @@
 layout: default
 ---
 
+<!-- Typing Code Block -->
+<div class="row g-5 mb-4">
+  <div class="col-md-12">
+    <div style="background:#1e1e2e; border-radius:12px; padding:24px; font-family:'Courier New', monospace; font-size:14px; line-height:2;">
+      <div id="typed-code"></div>
+      <span id="cursor" style="color:#cdd6f4;">▋</span>
+    </div>
+  </div>
+</div>
+
 <div class="row g-5 mb-5">
   <div class="col-md-6">
     <h3 class="fw-bold">About</h3>
@@ -12,31 +22,13 @@ layout: default
   </div>
 </div>
 
-<!-- Typing Code Block -->
-<div class="row g-5 mb-5">
-  <div class="col-md-12">
-    <div style="background:#1e1e2e; border-radius:12px; padding:24px; font-family:'Courier New', monospace; font-size:14px; line-height:2;">
-      <div id="typed-code"></div>
-      <span id="cursor" style="color:#cdd6f4;">▋</span>
-    </div>
-  </div>
-</div>
-
 <script>
   const lines = [
-    '<span style="color:#6c7086;"># Justin Kao</span>',
-    '<span style="color:#cdd6f4;">ml</span> <span style="color:#89b4fa;">=</span> <span style="color:#a6e3a1;">Transformer</span><span style="color:#cdd6f4;">(pretrain=</span><span style="color:#89dceb;">True</span><span style="color:#cdd6f4;">, layers=</span><span style="color:#fab387;">∞</span><span style="color:#cdd6f4;">)</span>',
-    '<span style="color:#cdd6f4;">gp</span> <span style="color:#89b4fa;">=</span> <span style="color:#a6e3a1;">GaussianProcess</span><span style="color:#cdd6f4;">(kernel=</span><span style="color:#89dceb;">RBF</span><span style="color:#cdd6f4;">, uncertainty=</span><span style="color:#89dceb;">True</span><span style="color:#cdd6f4;">)</span>',
-    '<span style="color:#cdd6f4;">actuary</span> <span style="color:#89b4fa;">=</span> <span style="color:#a6e3a1;">ASA</span><span style="color:#cdd6f4;">(active=</span><span style="color:#f38ba8;">False</span><span style="color:#cdd6f4;">, skills=</span><span style="color:#89dceb;">retained</span><span style="color:#cdd6f4;">)</span>',
-    '<span style="color:#cdd6f4;">justin</span> <span style="color:#89b4fa;">=</span> <span style="color:#cdd6f4;">ml</span> <span style="color:#89b4fa;">⊕</span> <span style="color:#cdd6f4;">gp</span> <span style="color:#89b4fa;">⊕</span> <span style="color:#cdd6f4;">actuary</span> <span style="color:#6c7086;"># rolling the dice on AI 🎲</span>',
-  ];
-
-  const plainLines = [
-    '# Justin Kao',
-    'ml = Transformer(pretrain=True, layers=∞)',
-    'gp = GaussianProcess(kernel=RBF, uncertainty=True)',
-    'actuary = ASA(active=False, skills=retained)',
-    'justin = ml ⊕ gp ⊕ actuary  # rolling the dice on AI 🎲',
+    { plain: '# Justin Kao', html: '<span style="color:#6c7086;"># Justin Kao</span>' },
+    { plain: 'ml = Transformer(pretrain=True, layers=∞)', html: '<span style="color:#cdd6f4;">ml</span> <span style="color:#89b4fa;">=</span> <span style="color:#a6e3a1;">Transformer</span><span style="color:#cdd6f4;">(pretrain=</span><span style="color:#89dceb;">True</span><span style="color:#cdd6f4;">, layers=</span><span style="color:#fab387;">∞</span><span style="color:#cdd6f4;">)</span>' },
+    { plain: 'gp = GaussianProcess(kernel=RBF, uncertainty=True)', html: '<span style="color:#cdd6f4;">gp</span> <span style="color:#89b4fa;">=</span> <span style="color:#a6e3a1;">GaussianProcess</span><span style="color:#cdd6f4;">(kernel=</span><span style="color:#89dceb;">RBF</span><span style="color:#cdd6f4;">, uncertainty=</span><span style="color:#89dceb;">True</span><span style="color:#cdd6f4;">)</span>' },
+    { plain: 'actuary = ASA(active=False, skills=retained)', html: '<span style="color:#cdd6f4;">actuary</span> <span style="color:#89b4fa;">=</span> <span style="color:#a6e3a1;">ASA</span><span style="color:#cdd6f4;">(active=</span><span style="color:#f38ba8;">False</span><span style="color:#cdd6f4;">, skills=</span><span style="color:#89dceb;">retained</span><span style="color:#cdd6f4;">)</span>' },
+    { plain: 'justin = ml ⊕ gp ⊕ actuary  # rolling the dice on AI 🎲', html: '<span style="color:#cdd6f4;">justin</span> <span style="color:#89b4fa;">=</span> <span style="color:#cdd6f4;">ml</span> <span style="color:#89b4fa;">⊕</span> <span style="color:#cdd6f4;">gp</span> <span style="color:#89b4fa;">⊕</span> <span style="color:#cdd6f4;">actuary</span> <span style="color:#6c7086;"># rolling the dice on AI 🎲</span>' },
   ];
 
   const container = document.getElementById('typed-code');
@@ -44,37 +36,33 @@ layout: default
   let lineIndex = 0;
   let charIndex = 0;
 
+  function getCurrentDiv() {
+    if (container.children[lineIndex]) return container.children[lineIndex];
+    const d = document.createElement('div');
+    container.appendChild(d);
+    return d;
+  }
+
   function type() {
     if (lineIndex >= lines.length) {
-      // Done — just blink cursor
       setInterval(() => {
         cursor.style.opacity = cursor.style.opacity === '0' ? '1' : '0';
       }, 500);
       return;
     }
 
-    const currentPlain = plainLines[lineIndex];
-    const currentHTML = lines[lineIndex];
+    const { plain, html } = lines[lineIndex];
+    const div = getCurrentDiv();
 
-    if (charIndex <= currentPlain.length) {
-      // Show partial line as plain text while typing
-      const div = container.children[lineIndex] || (() => {
-        const d = document.createElement('div');
-        container.appendChild(d);
-        return d;
-      })();
-
-      if (charIndex === currentPlain.length) {
-        // Line done — show full colored HTML
-        div.innerHTML = currentHTML;
-        lineIndex++;
-        charIndex = 0;
-        setTimeout(type, 80);
-      } else {
-        div.textContent = currentPlain.slice(0, charIndex);
-        charIndex++;
-        setTimeout(type, 40);
-      }
+    if (charIndex < plain.length) {
+      div.textContent = plain.slice(0, charIndex + 1);
+      charIndex++;
+      setTimeout(type, 35);
+    } else {
+      div.innerHTML = html;
+      lineIndex++;
+      charIndex = 0;
+      setTimeout(type, 150);
     }
   }
 
