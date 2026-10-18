@@ -86,8 +86,8 @@ contacts:
       title: "PhD Student",
       department: "Statistics",
       institution: "Rice University",
-      email: "jk201@rice.edu",
-      mailing_address: "Department of Statistics, Rice University, MS-138, P.O. Box 1892, Houston, TX 77251-1892",
+      email: "Justin.Kao@rice.edu",
+      mailing_address: "Department of Statistics,<br>Rice University,<br>MS-138, P.O. Box 1892,<br>Houston, TX 77251-1892",
       office: "Room 254, Maxfield Hall",
       image: "assets/img/contact.jpeg",
     }
