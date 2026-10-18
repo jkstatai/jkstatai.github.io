@@ -55,7 +55,7 @@ layout: default
     const div = getCurrentDiv();
 
     if (charIndex < plain.length) {
-      div.textContent = plain.slice(0, charIndex + 1);
+      div.innerHTML = '<span style="color:#cdd6f4;">' + plain.slice(0, charIndex + 1) + '</span>';
       charIndex++;
       setTimeout(type, 35);
     } else {
