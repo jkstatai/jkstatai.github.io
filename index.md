@@ -1,6 +1,6 @@
 ---
 layout: home
-title: ""
+title: "Justin Kao | "
 ---
 
 Hi y’all, welcome to my page. I am currently a PhD student in Statistics at the <a href="https://statistics.rice.edu/" target="_blank">Department of Statistics, George R. Brown School of Engineering and Computing, Rice University</a>.
