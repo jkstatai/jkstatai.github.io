@@ -2,13 +2,7 @@
   <div class="row">
     <div class="col-md-12 text-center social-media-icons">
       {% for item in site.data.settings.social %}
-        <a href="{{ item.link }}" class="ms-3 fs-2">
-          {% if item.image %}
-            <img src="{{ item.image }}" style="height: 1em; width: auto; vertical-align: middle;">
-          {% else %}
-            <i class="fab fa-{{ item.icon }}" style="color: {{ item.color }};"></i>
-          {% endif %}
-        </a>
+        <a href="{{ item.link }}" class="ms-3 fs-2"><i class="{{ item.prefix | default: 'fab' }} fa-{{ item.icon }}" style="color: {{ item.color }};"></i></a>
       {% endfor %}
     </div>
   </div>
