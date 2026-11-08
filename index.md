@@ -3,8 +3,7 @@ layout: home
 title: "Justin Kao - Rice University"
 ---
 
-Hi y’all, welcome to my page. I am currently a PhD student in Statistics at the <a href="https://statistics.rice.edu/" target="_blank">Department of Statistics, George R. Brown School of Engineering and Computing, Rice University</a>.
-My research lies at the intersection of Bayesian methodology, predictive inference, time series analysis, and differential privacy, with application interests in quantitative trading and actuarial science.
+Hi y’all, welcome to my page! I am a Ph.D. student in Statistics at the <a href="https://statistics.rice.edu/" target="_blank">Department of Statistics, George R. Brown School of Engineering and Computing, Rice University</a>. My research lies at the intersection of foundation models (tabular), pre-trained models, neural network architectures, machine learning, Bayesian methods, MCMC, and Gaussian processes (hierarchical/empirical Bayes), with additional interests in predictive inference and differential privacy. I am broadly interested in applications to environmental climate change (methodology design and analysis), quantitative finance, and patient cost prediction.
 
 Currently, I work with <a href="https://meng.rice.edu/" target="_blank">Dr. Meng Li</a> at Rice University on _Tabular Foundation Model_ and _Hierarchical Bayes Optimal Posterior Contraction for Gaussian Process Derivative Functionals_.
 
